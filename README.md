@@ -1,5 +1,6 @@
 ﻿# ClassLibrary1
 
+Try to run this command in the solution directory:  
 ``dotnet stryker --configuration Release --reporter json --reporter html``
 
 ```
