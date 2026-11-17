@@ -1,0 +1,12 @@
+{
+  "stryker-config": {
+    "mutate": [
+    ],
+    "test-case-filter": "FullyQualifiedName!~IntegrationTest&TestCategory!~Integration",
+    "ignore-methods": [
+      "Log.*",
+      "*Exception.ctor"
+    ]
+  }
+}
+        
